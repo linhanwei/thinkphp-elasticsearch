@@ -1,0 +1,38 @@
+{
+  "name": "linhanwei/thinkphp-elasticsearch",
+  "description": "Thinkphp use SQL statements to query elasticsearch",
+  "keywords": [
+    "elasticsearch",
+    "thinkphp",
+    "sql",
+    "orm",
+    "php"
+  ],
+  "homepage": "https://github.com/linhanwei/thinkphp-elasticsearch",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "linhanwei",
+      "email": "2757104556@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0",
+    "topthink/framework": "^6.0.0",
+    "elasticsearch/elasticsearch": "^7.2"
+  },
+  "autoload": {
+    "files": [
+    ],
+    "psr-4": {
+      "Linhanwei\\Elasticsearch\\": "src/"
+    }
+  },
+  "extra": {
+    "think": {
+      "services": [
+        "think\\elastic\\service\\ElasticService"
+      ]
+    }
+  }
+}
