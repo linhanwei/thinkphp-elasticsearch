@@ -6,7 +6,7 @@
 
 | Elasticsearch Version | thinkphp-elasticsearch Branch |
 | --------------------- | ------------------------ |
-| >= 7.0                | 2.*                      |
+| >= 7.0                | 1.*                      |
 ## Install
 
 You can install the package via composer:

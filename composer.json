@@ -21,6 +21,7 @@
     "topthink/framework": "^6.0.0",
     "elasticsearch/elasticsearch": "^7.2"
   },
+  "minimum-stability": "dev",
   "autoload": {
     "files": [
     ],
