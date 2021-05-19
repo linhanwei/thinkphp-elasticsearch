@@ -1,7 +1,7 @@
 <?php
 declare (strict_types=1);
 
-namespace think\elastic\service;
+namespace Linhanwei\Elasticsearch\service;
 
 use think\elastic\common\ElasticFactory;
 use think\Service;

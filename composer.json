@@ -32,7 +32,7 @@
   "extra": {
     "think": {
       "services": [
-        "think\\elastic\\service\\ElasticService"
+        "Linhanwei\\Elasticsearch\\service\\ElasticService"
       ]
     }
   }
